@@ -11,3 +11,5 @@ attr_accessor :brand, :color, :size, :material, :condition
   end
 
 end
+
+air_max_95 = Shoe.new("Nike", "Black", "10", "Leather", "Old")
