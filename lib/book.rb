@@ -20,4 +20,8 @@ class Book
     @num = num
   end
 
+  def num
+    @num
+  end
+
 end
