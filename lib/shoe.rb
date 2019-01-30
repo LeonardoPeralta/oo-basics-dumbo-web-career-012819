@@ -7,10 +7,8 @@ attr_accessor :brand, :color, :size, :material, :condition
   end
 
   def cobble
+    @condition = "new"
     puts "Your shoe is as good as new!"
   end
 
 end
-
-air_max_95 = Shoe.new("Nike", "Black", "10", "Leather", "Old")
-air_max_95.brand
